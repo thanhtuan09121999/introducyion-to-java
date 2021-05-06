@@ -9,7 +9,6 @@ public class Weight {
         System.out.print("nhập chiều cao (in meter)");
         height = sc.nextDouble();
         BMI = weight / Math.pow(height,2);
-        System.out.printf("" +BMI);
         if (BMI < 18) {
             System.out.println( BMI+"Underweight");
         } else if (BMI < 25.0) {
